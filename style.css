@@ -35,3 +35,15 @@ body {
     line-height: 20px;
     margin: 0 auto;
 }
+
+.ethanandi {
+    background-image: url('images/ethanandi.JPG');
+    background-size: contain;
+    color: black;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: auto;
+    background-position: center;
+    text-align: center;
+    padding-top: -30px;
+}
