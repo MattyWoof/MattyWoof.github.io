@@ -12,7 +12,7 @@ http://www.templatemo.com/preview/templatemo_460_medigo
 --------------------------------------------------------*/
 
 body {
-    background: white;
+    background: black;
     font-size: 16px;
     font-family: "PT Serif", Georgia, serif;
     font-weight: normal;
@@ -211,7 +211,8 @@ a:visited {
     top: 0;
     left: 0;
     width: 100%;
-    background: white;
+    background: black;
+    color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 3px;
     -moz-box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 3px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 3px;
@@ -360,6 +361,12 @@ a.menu-toggle-btn i {
 	General Styling
 --------------------------------------------------------*/
 
+.welcome {
+    text-shadow: #84c333 2px 2px 2px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
 .light-content {
     background-color: white;
     width: 100%;
@@ -504,7 +511,9 @@ input.mainBtn {
 }
 
 #homeIntro {
-    background-image: url("../images/includes/homeintro.jpg");
+    background-image: url("../images/theboys.jpg");
+    position: relative;
+    background-size: 100% 675px;
 }
 
 #portfolio {
