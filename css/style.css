@@ -12,7 +12,7 @@ http://www.templatemo.com/preview/templatemo_460_medigo
 --------------------------------------------------------*/
 
 body {
-    background: whitesmoke;
+    background: #000;
     font-size: 16px;
     font-family: "PT Serif", Georgia, serif;
     font-weight: normal;
@@ -208,6 +208,7 @@ a:visited {
 
 .site-header {
     position: fixed;
+    border: #000 1px solid;
     top: 0;
     left: 0;
     width: 100%;
@@ -225,13 +226,13 @@ a:visited {
 }
 
 .site-header.site-header-shrink {
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 .main-nav ul li {
     float: left;
     display: block;
-    margin-left: 20px;
+    margin-left: 10px;
     position: relative;
 }
 
@@ -241,7 +242,7 @@ a:visited {
     font-weight: 700;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
-    padding: 5px 15px;
+    padding: 5px 5px;
     display: block;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -361,11 +362,39 @@ a.menu-toggle-btn i {
 	General Styling
 --------------------------------------------------------*/
 
-.welcome {
-    color: white;
-    text-shadow: #84c333 2px 2px 2px;
+.heading2 {
+    position: relative;
+    color: #f1f1f1;
+    text-shadow: 1px 1px 1px #000, 3px 3px 3px green;
+    width: 100%;
+    padding: 5px auto;
     margin: 0 auto;
-    padding: 50px 300px;
+}
+
+.welcome {
+    position: relative;
+    float: left;
+    text-align: left;
+    bottom: 10px;
+    background: rgba(0, 0, 0, 0);
+    color: #f1f1f1;
+    text-shadow: 1px 1px 1px #000, 3px 3px 3px green;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+}
+
+.welcome1 {
+    position: relative;
+    float: right;
+    text-align: left;
+    bottom: 10px;
+    background: rgba(0, 0, 0, 0);
+    color: #f1f1f1;
+    text-shadow: 1px 1px 1px #000, 3px 3px 3px green;
+    width: 50%;
+    height: auto;
+    padding: 10px;
 }
 
 .light-content {
@@ -513,8 +542,10 @@ input.mainBtn {
 
 #homeIntro {
     background-image: url("../images/theboys.jpg");
-    position: relative;
-    background-size: 100% 675px;
+    background: #000 transparent;
+    border: #000 5px solid;
+    border-radius: 5% 5% 5% 5%;
+    position: contain;
 }
 
 #portfolio {
